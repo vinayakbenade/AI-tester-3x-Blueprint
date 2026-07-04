@@ -1,1 +1,7 @@
 **/.env
+Chapter3_Test_Stratergybuddy/.tmp/
+Chapter3_Test_Stratergybuddy/.commandcode/
+Chapter3_Test_Stratergybuddy/*.log
+Chapter3_Test_Stratergybuddy/frontend/dist/
+Chapter3_Test_Stratergybuddy/frontend/node_modules/
+
