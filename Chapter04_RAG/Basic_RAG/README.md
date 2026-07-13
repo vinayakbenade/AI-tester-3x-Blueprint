@@ -11,7 +11,7 @@ User (Browser) ←→ React Frontend (Vite, port 5174)
                          │
                    proxy /api
                          ↓
-                  FastAPI Backend (uvicorn, port 8000)
+                  FastAPI Backend (uvicorn, port 8001)
                          │
           ┌──────────────┼──────────────┐
           ↓              ↓              ↓
@@ -99,7 +99,7 @@ Terminal 1 — Backend:
 
 ```bash
 cd backend
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn app:app --reload --host 0.0.0.0 --port 8001
 ```
 
 Terminal 2 — Frontend:
